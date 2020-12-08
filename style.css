@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif; ;
+}
+
+body
+{
+    background: linear-gradient(to right, #4a4a4c, white);
+}
+
+.resume
+{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left
+{
+   background: #4a4a4c;
+   width: 250px;
+   padding: 0 20px;
+}
+
+.right
+{
+    width: calc(100% - 250px);
+}
+
+.left .img_holder
+{
+    text-align: center ;
+    padding: 20px 0 ;
+    filter: grayscale(100%);
+}
+
+.left .img_holder img
+{
+    width: 200px;
+    border-radius: 100%;
+    filter: grayscale(100%);
+    border-radius: 50%; border: 10px solid white;
+}
+
+.pb
+{
+    padding-bottom: 20px;
+}
+
+.title
+{
+   font-size: 24px; 
+   font-weight: 700;
+   text-transform: uppercase;
+   color: white;
+   text-align: left;
+   position: relative;
+   margin-bottom: 20px;
+}
+
+
+.title::before
+{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0%;
+    width: 200px;
+    height: 2px;
+    background:white ;
+}
+
+.left .icon
+{
+   font-size:  20px;
+   color: white;
+}
+
+.left .text
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+}
+
+.contact .li_wrap
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px ;
+}
+
+.contact .li_wrap .icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact .li_wrap .text
+{
+    width: calc(100% - 50px );
+    word-break: break-word ;
+}
+
+.header
+{
+    padding: 15px 30px;
+    height: 240px;
+}
+
+
+
+.header .name
+{
+   font-size: 52px;
+}
+
+.nom
+{
+    color: #11a9f3 ;
+}
+
+.premier
+{
+    margin: 25px;
+}
+
+.p
+{
+    color: #11a9f3;
+}
+
+.p2
+{
+    color: #11a9f3;
+}
+
+.p3
+{
+    color: #11a9f3;
+}
+
+.deuxieme
+{
+    margin: 25px;
+}
+
+.p4
+{
+    color: #11a9f3;
+}
+
+
+.p5
+{
+    color: #11a9f3;
+}
+
+.p6
+{
+    color: #11a9f3;
+}
+
+
+hr
+{
+    color: white;
+}
+ 
